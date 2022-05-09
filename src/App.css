@@ -1,0 +1,1935 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* samll screen css */
+@media only screen and (min-width: 300px) {
+
+  .logo-link{
+    padding-left: 15% !important;
+  }
+  .Logo-unit {
+    width: 42.7px;
+    height: 80px;
+    object-fit: contain;
+  }
+
+  .nav-toggle-pos{
+    padding: 13px 0 0 0;
+  }
+
+  .contact-us{
+    font-family: Avenir;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #30394b !important;
+  }
+
+  .profile-menu{
+  background-color: #30394b !important;
+  border-color: #30394b !important;
+  border-radius: 0px !important;
+  height: 34px;
+  display: none !important;
+  }
+
+
+  .chairman-note{
+    font-family: PlayfairDisplay;
+    font-size: 30px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #30394b;
+    padding: 30px;
+    padding-left: 45px !important;
+  }
+
+  .logo-margin{
+     margin: 14px 0px 0px 0; 
+  }  
+
+
+  .growth-content{
+    font-family: Avenir-Roman;
+    font-size: 17px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.9;
+    letter-spacing: normal;
+    color: #000000;
+    padding: 3% 6% 3% 8%;
+  }
+
+  .growth{
+    font-family: Avenir;
+    font-size: 18px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    color: #000000;
+    padding: 7% 3% 4% 8%;
+  }  
+
+  .chairman-signature{
+  font-family: Avenir;
+  font-size: 18px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.46;
+  letter-spacing: normal;
+  color: #000000;
+  padding: 0 0 0 8%;
+}
+
+.chairman-desig{
+  font-family: Avenir-Roman;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.9;
+  letter-spacing: normal;
+  color: #000000;
+  padding: 0 0 8% 8%;
+}
+
+.youtube-video{
+  padding: 4% 7% 0 7% !important;
+}
+
+.youtube-frame{
+  width: 100%;
+  height: 100%;
+}
+
+.home-about-img{
+  display: none;
+}
+
+.about-sm{
+  padding: 0 0 0 0 !important;
+}
+
+.map-back{
+  background-image: url('./img/map-1.jpg');
+  background-origin: content-box;
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  height: 100%;
+}
+
+.about-bedmutha{
+  font-family: PlayfairDisplay;
+  font-size: 30px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #30394b;
+  padding-bottom: 5%;
+}
+
+.trust-row{
+
+}
+
+.core-values{
+  font-family: PlayfairDisplay;
+  font-size: 30px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #30394b;
+}
+
+.trust-col{
+  padding: 8% 0 0 0;
+}
+
+.trust{
+  font-family: Avenir;
+  font-size: 30px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ff4400;
+}
+
+.people-row{
+  padding: 0 0 3% 0 ;
+}
+
+.trusted-row{
+  text-align: center;
+  padding-top: 5%;
+}
+
+.client-image-row{
+  padding-bottom: 10%;
+}
+
+.contact-logo-industry{
+  padding: 10% 0% 2% 10%;
+}
+
+.contact-form-main {
+    width: 100%;
+    height: 75%;
+    position: relative !important;
+    background-color: white;
+    left: 0%;
+    margin-top: 0px;
+    padding: 1%;
+}
+
+.address-main{
+  /*margin: 140px 0 0px 23px !important;*/
+  padding: 10% 0px 0 11%;
+}
+
+.get-quote{
+  font-family: Avenir;
+  font-size: 24px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ff4400;
+  padding-left: 5%;
+}
+
+.enquiry-form{
+  /*margin: 77px 44px 0px 15px;*/
+  padding: 4%;
+}
+
+.inqury-input{
+  padding: 2%;
+  /*margin: 22px 0 0 0;*/
+}
+
+.home-contact-form{
+  width: 100%;
+  display: none;
+  /*background-image: url('./img/contact-form-back.jpeg');
+  background-origin: content-box;
+  background-repeat: no-repeat;
+  background-size: cover*/
+}
+
+.second-address{
+  font-family: Avenir;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.57;
+  letter-spacing: normal;
+  color: #666666;
+  padding: 0 10% 0 0;
+}
+
+.send-enquiry{
+  font-family: Avenir;
+  font-size: 16px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  width: 100%;
+  height: 50px;
+  background-color: #30394b;
+}
+
+.footer-main{
+  padding: 10% !important;
+  background-color: #fbfbfb;
+}
+
+.contact-img{
+  width: 100%;
+  padding: 7%; 
+}
+
+.reach-out-div {
+  padding: 5% 3% 0% 10% !important;
+}
+
+.reach-out{
+  font-family: PlayfairDisplay;
+  font-size: 46px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: 2.4px;
+  text-align: left;
+  color: #f5541a;
+}
+
+.contact-info-main{
+  padding: 5% 0% 6% 6% !important;
+}
+
+.hear-from-you{
+  font-family: PlayfairDisplay;
+  font-size: 35px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.34;
+  letter-spacing: 2.32px;
+  text-align: center;
+  color: #434343;
+  padding: 51px;
+}
+
+}
+
+/* tablet screen css */
+@media only screen and (min-width: 768px) {
+  .nav-toggle-pos{
+    padding: 22px 0 0 0 !important;
+  }
+
+  .chairman-note{
+    font-family: PlayfairDisplay;
+    font-size: 30px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #30394b;
+    padding: 40px;
+    padding-left: 45px !important;
+  }
+
+  .contact-us{
+  width: 112px;
+  height: 34px;
+  background-color: #30394b;
+  font-family: Avenir;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff !important;
+  display: block;
+  text-align: center;
+  padding: 1% !important;
+}
+
+  .logo-margin{
+     margin: 0px 0px 0px 0; 
+  }
+
+  .profile-menu{
+  background-color: #30394b !important;
+  border-color: #30394b !important;
+  border-radius: 0px !important;
+  height: 34px;
+  }
+
+  .profile-menu-mob{
+     
+  }
+
+
+  .growth-content{
+    font-family: Avenir-Roman;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.9;
+    letter-spacing: normal;
+    color: #000000;
+    padding: 6px 27px 7px 0px;
+  }
+
+  .growth{
+    font-family: Avenir;
+    font-size: 32px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    color: #000000;
+    padding: 0 0 0 0;
+  } 
+
+  .chairman-signature{
+  font-family: Avenir;
+  font-size: 26px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.46;
+  letter-spacing: normal;
+  color: #000000; 
+  padding: 0 0 0 0;
+}
+
+.chairman-desig{
+  font-family: Avenir-Roman;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.9;
+  letter-spacing: normal;
+  color: #000000;
+  padding: 0 0 0 0;
+}   
+
+.youtube-video{
+  
+}
+
+.youtube-frame{
+  width: 100%;
+  height: 50%;
+}
+
+.home-about-img{
+  display: block;
+  width: 100% !important;
+}
+
+.client-count-div{
+  padding: 10% 0 0 0;
+}
+
+.map-back{
+  background-image: url('./img/map-1.jpg');
+  background-origin: content-box;
+  background-repeat: no-repeat;
+  background-position: 195px -86px;
+  height: 375px;
+}
+
+.about-bedmutha{
+  font-family: PlayfairDisplay;
+  font-size: 40px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #30394b;
+  padding-bottom: 5%;
+}
+
+.trust-row{
+  
+}
+
+.core-values{
+  font-family: PlayfairDisplay;
+  font-size: 40px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #30394b;
+}
+
+.trust{
+  font-family: Avenir;
+  font-size: 40px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ff4400;
+}
+
+.people-row{
+  padding: 0 0 3% 0 ;
+}
+
+.trusted-row{
+  text-align: left;
+  padding-top: 5%;
+}
+
+.client-image-row{
+  padding-bottom: 10%;
+}
+
+.contact-logo-industry{
+  padding: 6%;
+}
+
+.contact-form-main {
+    width: 63%;
+    height: 75%;
+    position: absolute !important;
+    background-color: white;
+    left: 20%;
+    margin-top: 119px;
+    padding: 1%;
+}
+
+.address-main{
+  /*margin: 140px 0 0px 23px !important;*/
+  padding: 10% 0px 0 11%;
+}
+
+.get-quote{
+  font-family: Avenir;
+  font-size: 24px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ff4400;
+  padding-left: 5%;
+}
+
+.enquiry-form{
+  /*margin: 77px 44px 0px 15px;*/
+  padding: 4%;
+}
+
+.inqury-input{
+  padding: 2%;
+  /*margin: 22px 0 0 0;*/
+}
+
+.home-contact-form{
+  width: 100%;
+  display: block;
+  /*background-image: url('./img/contact-form-back.jpeg');
+  background-origin: content-box;
+  background-repeat: no-repeat;
+  background-size: cover*/
+}
+
+.second-address{
+  font-family: Avenir;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.57;
+  letter-spacing: normal;
+  color: #666666;
+}
+
+.send-enquiry{
+  font-family: Avenir;
+  font-size: 16px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  width: 278px;
+  height: 50px;
+  background-color: #30394b;
+}
+
+.footer-main{
+  padding: 90px !important;
+  background-color: #fbfbfb;
+}
+
+.contact-img{
+  
+}
+
+.reach-out-div {
+    padding: 40px 0 75px 190px !important;
+}
+
+.reach-out{
+  font-family: PlayfairDisplay;
+  font-size: 60px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: 2.4px;
+  text-align: left;
+  color: #f5541a;
+}
+
+.contact-info-main{
+  padding: 43px 0 0 0;
+}
+
+.hear-from-you{
+  font-family: PlayfairDisplay;
+  font-size: 58px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.34;
+  letter-spacing: 2.32px;
+  text-align: center;
+  color: #434343;
+  padding: 51px;
+}
+
+}
+
+
+/* desktop screen css */
+@media only screen and (min-width: 992px) {
+
+  .logo-link{
+    padding-left: 15% !important;
+  }
+
+  .login-link-lg {
+    padding-left: 130px !important;
+  }
+
+  .profile-menu{
+  background-color: #30394b !important;
+  border-color: #30394b !important;
+  border-radius: 0px !important;
+  height: 34px;
+  margin-left: 100px;
+  display: block !important;
+}
+
+  .profile-menu .nav-link {
+    color: white !important;
+    padding: 6px;
+  }
+
+  .profile-menu-mob{
+    display: none !important;
+  }
+
+  .contact-us{
+  width: 112px;
+  height: 34px;
+  background-color: #30394b;
+  font-family: Avenir;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff !important;
+  display: block;
+  text-align: center;
+  padding: 1% !important;
+}
+
+
+
+  .chairman-note{
+    font-family: PlayfairDisplay;
+    font-size: 40px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #30394b;
+    padding: 40px;
+    padding-left: 45px !important;
+  }
+
+  .logo-margin{
+     margin: 15px 40px 0px 0; 
+  }
+
+  .growth-content{
+    font-family: Avenir-Roman;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.9;
+    letter-spacing: normal;
+    color: #000000;
+    padding: 6px 27px 7px 0px;
+  }
+
+  .growth{
+    font-family: Avenir;
+    font-size: 32px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    color: #000000;
+    padding: 0 0 0 0;
+  } 
+
+  .chairman-signature{
+  font-family: Avenir;
+  font-size: 26px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.46;
+  letter-spacing: normal;
+  color: #000000; 
+  padding: 0 0 0 0;
+}
+
+.chairman-desig{
+  font-family: Avenir-Roman;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.9;
+  letter-spacing: normal;
+  color: #000000;
+  padding: 0 0 0 ;
+}
+
+
+.youtube-video{
+ padding: 1% 0 0 0% !important;
+}
+
+.youtube-frame{
+      width: 98%;
+    height: 50%;
+}
+
+.home-about-img{
+  display: block;
+  width: 100% !important;
+}
+
+.client-count-div{
+  padding: 10% 0 0 0;
+}
+
+.map-back{
+  background-image: url('./img/map-1.jpg');
+  background-origin: content-box;
+  background-repeat: no-repeat;
+  background-position: 195px -86px;
+  height: 375px;
+}
+
+.about-bedmutha{
+  font-family: PlayfairDisplay;
+  font-size: 40px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #30394b;
+  padding-bottom: 5%;
+}
+
+.trust-row{
+ padding: 3% 0 0 0; 
+}
+
+.core-values{
+  font-family: PlayfairDisplay;
+  font-size: 40px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #30394b;
+}
+
+.trust{
+  font-family: Avenir;
+  font-size: 40px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ff4400;
+}
+
+.people-row{
+  padding: 0 0 3% 0 ;
+}
+
+.carousel-indicators{
+    position: absolute;
+    right: 0;
+    bottom: 0px !important;
+    left: 0;
+    z-index: 15;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+    top: 106% !important;
+}
+
+.carousel-indicators li{
+      position: relative;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    background-color: rgba(255, 68, 0, 0.3) !important;
+}
+
+.carousel-indicators .active {
+    background-color: #ff4400 !important;
+}
+
+.trusted-row{
+  text-align: left;
+  padding-top: 5%;
+}
+
+.client-image-row{
+  padding-bottom: 10%;
+}
+
+.contact-logo-industry{
+  padding: 6%;
+}
+
+.contact-form-main {
+    width: 63%;
+    height: 75%;
+    position: absolute !important;
+    background-color: white;
+    left: 20%;
+    margin-top: 119px;
+    padding: 1%;
+}
+
+.address-main{
+  /*margin: 140px 0 0px 23px !important;*/
+  padding: 10% 0px 0 11%;
+}
+
+.get-quote{
+  font-family: Avenir;
+  font-size: 24px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ff4400;
+  padding-left: 5%;
+}
+
+.enquiry-form{
+  /*margin: 77px 44px 0px 15px;*/
+  padding: 4%;
+}
+
+.inqury-input{
+  padding: 2%;
+  /*margin: 22px 0 0 0;*/
+}
+
+.home-contact-form{
+  width: 100%;
+  display: block; 
+  /*background-image: url('./img/contact-form-back.jpeg');
+  background-origin: content-box;
+  background-repeat: no-repeat;
+  background-size: cover*/
+}
+
+.second-address{
+  font-family: Avenir;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.57;
+  letter-spacing: normal;
+  color: #666666;
+}
+
+.send-enquiry{
+  font-family: Avenir;
+  font-size: 16px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  width: 278px;
+  height: 50px;
+  background-color: #30394b;
+}
+
+.footer-main{
+  padding: 90px !important;
+  background-color: #fbfbfb;
+}
+
+.contact-img{
+  width: 100%;
+  padding: 7%; 
+}
+
+.reach-out-div {
+    padding: 40px 0 75px 190px !important;
+}
+
+.reach-out{
+  font-family: PlayfairDisplay;
+  font-size: 60px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: 2.4px;
+  text-align: left;
+  color: #f5541a;
+}
+
+.contact-info-main{
+  padding: 43px 0 0 0;
+}
+
+.hear-from-you{
+  font-family: PlayfairDisplay;
+  font-size: 58px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.34;
+  letter-spacing: 2.32px;
+  text-align: center;
+  color: #434343;
+  padding: 51px;
+}
+
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.Rectangle-5 {
+  width: 1440px;
+  height: 115px;
+  background-color: #ffffff;
+}
+
+.Group-3 {
+  width: 30px;
+  height: 21.7px;
+  object-fit: contain;
+}
+
+.Logo-unit {
+  width: 45.7px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.menu {
+  font-family: Avenir;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #30394b !important;
+}
+
+
+
+.social-media{
+  width: 23.9px;
+  height: 23.9px;
+  object-fit: contain;
+}
+
+.banner{
+  width: 100%;
+  height: 100%;
+}
+
+
+.section{
+  margin-top: 10%;
+}
+
+.section-background{
+  background-color: #f2f2f2;
+  background-clip: content-box;
+}
+
+.about-section{
+  padding-left: 25px !important;
+}
+
+.read-more{
+  width: 103px;
+  height: 38px;
+  font-family: Avenir;
+  font-size: 20px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.9;
+  letter-spacing: normal;
+  color: #ff4400; 
+}
+
+.number-details{
+  font-family: Avenir;
+  font-size: 60px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ff4400;
+}
+
+.happy-client{
+  font-family: Avenir;
+  font-size: 20px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #666666;
+}
+
+
+.trust-detail{
+  font-family: Avenir-Roman;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #30394b;
+}
+
+.team-name{
+  padding-top: 30px;  
+  font-family: Avenir;
+  font-size: 24px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.58;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.team-position{
+  font-family: Avenir-Roman;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.9;
+  letter-spacing: normal;
+  color: #000000; 
+}
+
+.product-header{
+   font-family: PlayfairDisplay;
+  font-size: 40px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #30394b;
+}
+
+.explore-more{
+  font-family: Avenir;
+  font-size: 20px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.9;
+  letter-spacing: normal;
+  color: #ff4400;
+}
+
+.trusted-by{
+  font-family: PlayfairDisplay;
+  font-size: 40px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #30394b; 
+}
+
+.client-number{
+  font-family: Avenir;
+  font-size: 60px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ff4400;
+}
+
+.client-globe{
+  font-family: Avenir;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #30394b;
+}
+
+.client-image{
+  width: 100%;
+  height: 100%;
+}
+
+.legrand{
+ background-color: #30394b;
+ padding-bottom: 25px;
+}
+
+.legrand-row-margin{
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+.legrand-head{
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  margin-top: 50px;
+}
+
+.testimonal{
+  font-family: Avenir-Roman;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.58;
+  letter-spacing: normal;
+  color: #ffffff;
+  padding: 0 10% 0 10% ;
+}
+
+.testimonal-name{
+  font-family: Avenir;
+  font-size: 24px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.58;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.testimonal-designation{
+  font-family: Avenir-Roman;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.9;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.comma-logo{
+  font-family: ProximaNova;
+  font-size: 120px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.32;
+  letter-spacing: normal;
+  color: #ff4400;
+  margin-top: 50px;
+}
+
+.contact-industry{
+  /*padding: 89px 0 0 35px;*/
+}
+
+.industry-name{
+  font-family: Avenir;
+  font-size: 24px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.web-name{
+  font-family: Avenir;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  color: #ff4400;
+}
+
+.contact-logo{
+  /*padding: 78px 0px 0px 35px !important;*/
+}
+
+.first-address{
+  font-family: Avenir;
+  font-size: 20px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.9;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+
+.address-mobile{
+  font-family: Avenir;
+  font-size: 14px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.57;
+  letter-spacing: normal;
+  color: #30394b;
+}
+
+.logo-address{
+  padding: 0 0 0 0 !important;
+}
+
+.select-product{
+  font-family: Avenir;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #666666;
+}
+
+.footer-link-head{
+  font-family: Avenir;
+  font-size: 24px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.58;
+  letter-spacing: normal;
+  color: #30394b;
+}
+
+.footer-link{
+  font-family: Avenir-Roman;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.9;
+  letter-spacing: normal;
+  color: #30394b;
+}
+
+.footer-follow-us{
+  font-family: Avenir;
+  font-size: 24px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.58;
+  letter-spacing: normal;
+  color: #30394b;
+}
+
+.footer-last{
+  padding: 20px;
+  color: white;
+  background-color: #30394b;
+}
+
+.contact-section{
+  background-color: #f2f2f2;
+}
+
+.high-input{
+  height: 60px;
+}
+
+.reach-out-main{
+  /*margin: 50px !important;*/
+  background-color: #f2f2f2;
+}
+
+.phone-contact-name{
+  font-family: AvenirLTStd;
+  font-size: 30px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: 1.2px;
+  text-align: left;
+  color: #434343;
+  width: 100%;
+}
+
+.phone-number{
+  font-family: AvenirLTStd-Roman;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: 0.8px;
+  text-align: left;
+  color: #434343;
+}
+
+
+
+.contact-address{
+
+  font-family: AvenirLTStd-Roman;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: 0.8px;
+  text-align: left;
+  color: #434343;
+}
+
+.address-contact-info{
+  margin-top: 25px;
+}
+
+.about-img{
+  padding: 40px;
+  width: 100%;
+}
+
+.button{
+  display: block;
+  width: 122px;
+  height: 55px;
+  padding: 10px;
+  text-align: center !important;
+  font-family: AvenirLTStd;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.9;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  background-color: #30394b; 
+  /*margin: 13px;*/
+}
+
+.strength-main{
+  padding: 50px 50px 50px 80px;
+}
+
+.strength-row{
+  /*margin: 64px !important;*/
+}
+
+.strength-head{
+  font-family: AvenirLTStd;
+  font-size: 40px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.75;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ff4400;
+}
+
+.strength-sm{
+  padding: 15px;
+}
+
+.certificates{
+  font-family: PlayfairDisplay;
+  font-size: 40px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: left;
+  color: #434343;
+}
+
+.view-all{
+  font-family: AvenirLTStd;
+  font-size: 24px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ff4400;
+}
+
+
+.certificate-main{
+  padding: 34px 50px 20px 80px !important;
+}
+
+.view-all-cert{
+  font-family: AvenirLTStd;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ff4400;
+}
+
+.sign-up-head{
+  font-family: AvenirLTStd;
+  font-size: 30px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: left;
+  color: #434343;
+}
+
+.login-img{
+  display: block;
+  max-width: 100%;
+  height: 100%;
+}
+
+.login-form-input{
+  padding: 25px 0 0 0 ;
+}
+
+.lg-container{
+  padding: 20px 90px 0px 90px;
+}
+
+.send-otp-btn{
+  font-family: AvenirLTStd;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.38;
+  letter-spacing: normal;
+  text-align: center;
+  width: 100%;
+  color: #ffffff;
+  background-color: #30394b;
+}
+
+.login-now{
+  font-family: AvenirLTStd;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;
+  color: #30394b;
+}
+
+.already-member{
+
+  font-family: AvenirLTStd;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  text-align: left;
+  color: #717171;
+}
+
+
+.already-member-main{
+  padding: 20px 0 0 0;
+}
+
+.filter-check-nm{
+  font-family: Avenir;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #666666;
+}
+
+.filter-head{
+  font-family: Avenir;
+  font-size: 16px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+
+}
+
+.list-head{
+  font-family: Avenir;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+  color: #000000;
+  border-bottom: 1px solid #c4c4c4;
+}
+
+.filters-main{
+      margin: 15px;
+}
+
+.att-head{
+  font-family: Avenir;
+  font-size: 16px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.product-name{
+  font-family: Avenir;
+  font-size: 20px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ff4400;
+}
+
+.product-div-main{
+  border: 1px solid #c4c4c4;
+  padding: 28px;
+  margin-top: 19px;
+}
+
+.list-product-margin{
+  margin: 30px;
+}
+
+.text-specs{
+  font-family: Avenir-Roman;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  color: #000000;
+  margin-top: 20px;
+}
+
+.enquiry-btn{
+  border: solid 1px #30394b;
+  font-family: Avenir;
+  font-size: 16px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #30394b;
+  padding: 6px;
+}
+
+.product-name-row{
+  padding-bottom: 25px !important;
+}
+
+.product-img{
+  width: 140px;
+  height: 137.7px;
+  object-fit: contain;
+}
+
+.bread-crumb{
+  background-color: #f8f3eb;
+  padding: 8px 0px 8px 25px;
+}
+
+.bread-crumb a{
+  color: #434343;
+}
+
+.detail-count{
+  border: 1px solid #c4c4c4;
+  padding: 4px;
+  margin: 14px -13px 0 0 !important;
+}
+
+.product-dt-img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.product-dt-name{
+  font-family: Avenir;
+  font-size: 35px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ff4400;
+}
+
+
+.product-section{
+  border: 1px solid #c4c4c4;
+  padding: 3% !important;
+}
+
+.product-dt-name-row{
+  margin-bottom: 15px;
+}
+
+.variant-tb{
+  width: 100%;
+}
+
+.add-enquiry{
+  border: solid 1px #30394b;
+  font-family: Avenir;
+  font-size: 16px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #30394b;
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table, td, th {
+  border: 1px solid #c4c4c4;
+  padding: 8px;
+}
+
+.product-detail-head{
+  font-family: AvenirLTStd;
+  font-size: 25px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #434343;
+}
+
+.login-link{
+  font-family: Avenir;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #30394b !important;
+}
+
+.filter-att-main{
+  margin: 25px;
+}
+
+.profile-div{
+  border: 1px solid rgb(196,196,196);
+}
+
+.main-profile-con{
+  height: 590px;
+  overflow-y: scroll;
+}
+
+.acc-nav{
+  margin-right: 2%;
+}
+
+.acc-name{
+  padding: 13px 0 13px 8px;
+}
+
+.profile-name{
+  padding-top: 5%;
+  font-family: Avenir;
+  font-size: 15px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: rgb(67,67,67);
+}
+
+.profile-nav{
+  padding: 7% 5% 7% 5%;
+}
+
+.personal-info-head{
+  font-size: 22px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.91;
+  letter-spacing: normal;
+  text-align: left;
+  color: #434343;
+}
+
+.save-user{
+  font-family: Avenir;
+  font-size: 16px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  width: 100%;
+  height: 50px;
+  background-color: #30394b;
+  cursor: pointer;
+}
+
+.product-att-value{
+
+  font-family: AvenirLTStd;
+  font-size: 16px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.63;
+  letter-spacing: normal;
+  text-align: left;
+  color: #434343;
+}
+
+.product-att-name{
+  font-family: AvenirLTStd;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.63;
+  letter-spacing: normal;
+  text-align: left;
+  color: #434343;
+
+}
+
+.product-cart-name{
+  font-family: AvenirLTStd;
+  font-size: 20px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #434343;
+}
+
+.product-cart-row{
+  padding: 22px 18px 18px;
+  border-radius: 5px;
+  border: solid 1.2px #c4c4c4;
+  background-color: #ffffff;
+  margin: 0% 0 4% 0%;
+}
+
+.place-enquiry{
+  padding: 0% 3% 0% 3%;
+  background-color: #30394b;
+  font-family: AvenirLTStd;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.9;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.cart-head-row{
+  padding: 2% 0 3% 0%;
+}
+
+.profile-nav-hd{
+  font-family: AvenirLTStd;
+  font-size: 16px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.63;
+  letter-spacing: normal;
+  text-align: left;
+  color: #434343;
+}
+
+.profile-hd{
+  font-family: AvenirLTStd;
+  font-size: 16px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.63;
+  letter-spacing: normal;
+  text-align: left;
+  color: #434343;
+}
+
+a:visited{
+  color: inherit;
+}
+
+a:hover{
+  color: black !important;
+  text-decoration: none !important;
+}
+
+.no-product-cart{
+  font-family: AvenirLTStd;
+  font-size: 20px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #43434380;
+}
+
+.profile-info-hd{
+  border-bottom: 1px solid rgb(189 174 174 / 50%);
+}
+
+
+
